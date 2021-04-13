@@ -1,0 +1,69 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+/* General configuration */
+
+/* Design text and background colors */
+.bg-d-black {
+  background-color: #272a31;
+}
+
+.text-d-black {
+  color: #272a31;
+}
+
+.bg-d-orange {
+  background-color: #ec5242;
+}
+
+.text-d-orange {
+  color: #ec5242;
+}
+
+.bg-d-grey {
+  background-color: #d3d3d3;
+}
+
+.bg-d-transparent {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-d-grey {
+  color: #d3d3d3;
+}
+
+/* Design font families */
+.d-text-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.d-title-font {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+/* General classes */
+.border-orange {
+  border-color: #ec5242;
+}
+
+.border-grey {
+  border-color: #d3d3d3;
+}
+
+.border-black {
+  border-color: #272a31;
+}
+
+.separator-line {
+  height: 2px;
+  width: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.black-underline-link {
+  color: inherit;
+}

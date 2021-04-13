@@ -1,0 +1,105 @@
+/* navbar */
+header {
+  width: 100%
+  background-color: #ffffff;
+  opacity: 0.4;
+  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #ffffff 25%) 0px 0/ 78px 78px;
+}
+
+.head-nav {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 85%;
+  margin-bottom: 40px;
+}
+
+.navbar-icons {
+  font-size: 46px;
+}
+
+/* Welcome */
+#welcome {
+  width: 90%;
+}
+
+.welcome-main-title {
+  font-weight: 1000;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+
+.welcome-contact {
+  width: 70%;
+}
+
+/* Conference Topic */
+.conf-topic {
+  width: 90%;
+}
+
+.ocaml-logo {
+  width: 125px;
+  height: 125px;
+}
+
+.logo-line-1 {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+.logo-line-2 {
+  font-size: 32px;
+  line-height: 34px;
+}
+
+.logo-year {
+  font-size: 26px;
+}
+.logo-at {
+  font-size: 14px;
+}
+
+
+/* Previous Conferences */
+.prev-conf-container {
+  width: 80%;
+  padding: 50px 0;
+}
+
+.conf-red-background {
+    background-color: #CC0C0C;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    mix-blend-mode: darken;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+
+.google-logo {
+  height: 40px;
+  padding: 0 20px;
+}
+
+.mozilla-logo {
+  height: 40px;
+  padding-bottom: 8px;
+}
+
+.inria-logo {
+  height: 40px;
+}
+
+.microsoft-logo {
+  height: 45px;
+}
+
+.jane-street-logo {
+  height: 55px;
+}
