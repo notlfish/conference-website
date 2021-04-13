@@ -60,13 +60,6 @@
   border-bottom-width: 2px;
 }
 
-.speaker-photo {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  height: 120px;
-  width: 120px;
-}
-
 /* navbar */
 header {
   width: 100%
@@ -112,6 +105,7 @@ header {
 }
 
 /* Main Program */
+
 .program-entries {
   width: 90%;
   margin: 0 auto;
@@ -127,6 +121,46 @@ header {
 }
 
 /* Featured Speakers */
-.more-button {
+#featured-speakers {
+  width: 95%;
+}
 
+
+.featured-speakers-bold {
+  font-weight: 600;
+}
+
+.speaker-entry-font {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.speaker-image {
+  width: 150px;
+  height: 150px;
+  background-color: ;
+}
+
+.speaker-photo {
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 125px;
+  width: 125px;
+}
+
+.speaker-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 75px;
+  z-index: -1;
+  background-color: #eee;
+  background-image:
+    linear-gradient(45deg, #272a31 25%, transparent 25%),
+    linear-gradient(135deg, #272a31 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #272a31 75%),
+    linear-gradient(135deg, transparent 75%, #272a31 75%);
+  background-size: 25px 25px;
+  background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
 }
