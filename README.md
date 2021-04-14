@@ -7,7 +7,9 @@ Microverse HTML and CSS capstone project
 >The website consists of a main page, an about page and a tickets sale page, and features both mobile (< 768px width) and desktop (≥ 768px width) versions
 
 
-![ScreenShot](assets/nothinghere.png)
+![ScreenShot](assets/index-screenshot.png)
+![ScreenShot](assets/about-screenshot.png)
+![ScreenShot](assets/tickets-screenshot.png)
 
 ## Built With
 
@@ -23,7 +25,7 @@ Microverse HTML and CSS capstone project
 
 ## Live Demo
 
-- Project [Live Demo Link](https://link-to-nowhere.net)
+- Project [Live Demo Link](https://notlfish.github.io/conference-website/tickets.html)
 
 ## Getting Started
 
