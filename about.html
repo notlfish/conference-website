@@ -45,14 +45,14 @@
     </header>
     <main>
       <section id="welcome" class="mx-auto py-5">
-        <h2 class="text-d-orange d-title-font text-center">let conference = "Prague 2022";;</h2>
-        <h1 class="text-d-orange d-title-font text-center welcome-main-title">OCaml Developers' Global Conference 2022 </h1>
-        <div id="main-description" class="border border-2 bg-white p-3 text-center d-text-font">
+        <h2 class="text-d-orange d-title-font text-center d-md-none">let conference = "Prague 2022";;</h2>
+        <h1 class="text-d-orange d-title-font text-center mx-md-auto welcome-main-title">OCaml Developers' Global Conference 2022 </h1>
+        <div id="main-description" class="border border-2 bg-white py-3 px-3 px-md-5 mx-md-auto text-center d-text-font">
           <p>The OCaml Users and Developers Workshop brings together industrial users of OCaml with academics and hackers who are working on extending the language, type system, and tools. Previous editions have been co-located with ICFP 2019 in Berlin, and was virtual for ICFP 2020, following the OCaml Meetings in Paris in 2010 and 2011.</p>
         </div>
         <div class="welcome-contact d-text-font text-d-black mx-auto my-4 text-center">
           <p class="my-0">Please contact per Email for any further questions about OCaml conference 2022!</p>
-          <p><a href="#" class="black-underline-link fw-bold">occonferece@camlhump</a></p>
+          <p><a href="#" class="black-underline-link fw-bold">occonferece@camlhump</a> <span class="d-none d-md-inline fw-lighter"><i class="fas fa-angle-right"></i></span></p>
         </div>
       </section>
       <section id="conference-topic" class="bg-white text-d-black py-5 border-bottom border-2">
@@ -60,9 +60,9 @@
           <div class="w-75 mx-auto text-center pt-5">
             <h2 class="d-title-font">OCaml Conference Main Topic</h2>
             <div class="separator-line mx-auto border-orange"></div>
-            <p class="d-text-font fs-5">The main topic of this conference is the long-awaited Multicore Ocaml, by unanimous choice in the developers' poll</p>
+            <p class="d-text-font conf-topic-description">The main topic of this conference is the long-awaited Multicore Ocaml, by unanimous choice in the developers' poll. <span class="d-none d-md-inline">Multicore Ocaml was released last June and it's going to be discussed at length by the designers at INRIA and OCamlLabs, alongside algebraic effects.</span></p>
           </div>
-          <div class="conference-logo border py-5 d-flex justify-content-center">
+          <div class="conference-logo border mx-md-auto py-5 d-flex justify-content-center">
             <img class="ocaml-logo d-block pe-2" alt="OCaml Logo" src="assets/ocaml-logo.jpg">
             <div class="logo-text text-d-black d-title-font text-center fw-bold">
               <p class="logo-line-1 my-0">OCaml Devs'</p>
@@ -79,13 +79,23 @@
             <div class="separator-line mx-auto border-orange"></div>
             <p class="d-text-font fs-6">Take a look at the last two OCaml Conferences which took place via Zoom (pandemics)</p>
           </div>
-          <div class="past-conference-entry position-relative my-4">
-            <div class="conf-red-background"></div>
-            <img class="img-fluid" alt="OCaml Conference 2021" src="assets/zoom-conf-1.jpg">
-          </div>
-          <div class="past-conference-entry position-relative my-4">
-            <div class="conf-red-background"></div>
-            <img class="img-fluid" alt="OCaml Conference 2021" src="assets/zoom-conf-2.png">
+          <div class="d-md-flex">
+            <div class="past-conference-entry position-relative my-4 me-md-5">
+              <div class="prev-conf-text position-absolute top-50 start-50 translate-middle text-white text-center">
+                <h3 class="prev-conf-year fw-bold">2019</h2>
+                <p>OCaml Conference via Zoom</p>
+              </div>
+              <div class="conf-red-background"></div>
+              <a href="#"><img class="img-fluid" alt="OCaml Conference 2021" src="assets/zoom-conf-1.jpg"></a>
+            </div>
+            <div class="past-conference-entry position-relative my-4">
+              <div class="prev-conf-text position-absolute top-50 start-50 translate-middle text-white text-center">
+                <h3 class="prev-conf-year fw-bold">2020</h2>
+                <p>OCaml Conference via Zoom</p>
+              </div>
+              <div class="conf-red-background"></div>
+              <a href="#"><img class="img-fluid" alt="OCaml Conference 2021" src="assets/zoom-conf-2.png"></a>
+            </div>
           </div>
         </div>
       </section>

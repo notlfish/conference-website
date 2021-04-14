@@ -18,9 +18,22 @@
   width: 70%;
 }
 
+@media only screen and (min-width: 768px) {
+  .welcome-main-title {
+    width: 60%;
+  }
+
+  #main-description {
+    width: 90%;
+  }
+}
 /* Conference Topic */
 .conf-topic {
   width: 90%;
+}
+
+.conf-topic-description {
+  font-size: 20px;
 }
 
 .ocaml-logo {
@@ -45,6 +58,16 @@
   font-size: 14px;
 }
 
+@media only screen and (min-width: 768px) {
+  .conference-logo {
+    width: 60%;
+  }
+
+  .conf-topic-description {
+    font-size: 16px;
+  }
+}
+
 /* Previous Conferences */
 .prev-conf-container {
   width: 80%;
@@ -56,7 +79,6 @@
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: 0 0;
-    background-size: cover;
     bottom: 0;
     left: 0;
     mix-blend-mode: darken;
@@ -65,4 +87,14 @@
     right: 0;
     top: 0;
     z-index: 4;
+    width: 100%;
+    height: 100%;
+}
+
+.prev-conf-text {
+  z-index: 100;
+}
+
+.prev-conf-year {
+  font-size: 40px;
 }
