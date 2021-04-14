@@ -76,14 +76,16 @@
 /* Header */
 #mobile-header {
   width: 100%
-  background-color: #ffffff;
-  opacity: 0.4;
 }
 
 .head-nav {
-  padding-top: 20px;
   padding-bottom: 5px;
   width: 85%;
+}
+
+.dropdown {
+  width: 40px;
+  padding-left: 50px;
 }
 
 .navbar-icons {

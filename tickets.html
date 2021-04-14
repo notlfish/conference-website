@@ -14,7 +14,15 @@
   <body>
     <header>
       <nav id="mobile-header" class="navbar-social head-nav text-d-black mx-auto d-block d-md-none">
-        <div class="navbar-icons head-nav text-d-black mx-auto"><i class="fas fa-bars"></i></div>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle navbar-icons head-nav text-d-black mx-auto" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+          <ul class="dropdown-menu d-text-font text-d-black" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-d-orange" href="./index.html">Home</a></li>
+            <li><a class="dropdown-item" href="./about.html">About</a></li>
+            <li><a class="dropdown-item" href="#">Program</a></li>
+            <li><a class="dropdown-item" href="./tickets.html">Join</a></li>
+          </ul>
+        </div>
       </nav>
       <nav class="desktop-header d-none d-md-block">
         <div class="bg-d-black w-100 py-0 text-end d-text-font text-white fs-6 navbar-social">
