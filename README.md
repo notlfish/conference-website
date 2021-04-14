@@ -53,6 +53,8 @@ On GitHub bash
 - In the cloned folder access open
     _index.html_
 
+- Navigate the website using the navbar links.
+
 ## Authors
 
 👤 **Lucas Ferrari Soto**
