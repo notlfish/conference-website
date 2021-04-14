@@ -1,6 +1,6 @@
 /* navbar */
 #mobile-header {
-  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #ffffff 25%) 0px 0/ 78px 78px;
+  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #fff 25%) 0 0/ 78px 78px;
 }
 
 /* Welcome */
@@ -74,11 +74,11 @@
     min-width: 180px;
   }
 }
+
 /* Featured Speakers */
 #featured-speakers {
   width: 95%;
 }
-
 
 .featured-speakers-bold {
   font-weight: 600;
@@ -115,7 +115,7 @@
     linear-gradient(45deg, transparent 75%, #272a31 75%),
     linear-gradient(135deg, transparent 75%, #272a31 75%);
   background-size: 25px 25px;
-  background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+  background-position: 0 0, 12.5px 0, 12.5px -12.5px, 0 12.5px;
 }
 
 @media only screen and (min-width: 768px) {

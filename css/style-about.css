@@ -1,6 +1,6 @@
 /* navbar */
 #mobile-header {
-  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #ffffff 25%) 0px 0/ 78px 78px;
+  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #fff 25%) 0 0/ 78px 78px;
 }
 
 /* Welcome */
@@ -27,6 +27,7 @@
     width: 90%;
   }
 }
+
 /* Conference Topic */
 .conf-topic {
   width: 90%;
@@ -54,6 +55,7 @@
 .logo-year {
   font-size: 26px;
 }
+
 .logo-at {
   font-size: 14px;
 }
@@ -75,20 +77,20 @@
 }
 
 .conf-red-background {
-    background-color: #CC0C0C;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-position: 0 0;
-    bottom: 0;
-    left: 0;
-    mix-blend-mode: darken;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 4;
-    width: 100%;
-    height: 100%;
+  background-color: #cc0c0c;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-position: 0 0;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: darken;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
 }
 
 .prev-conf-text {

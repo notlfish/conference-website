@@ -1,6 +1,6 @@
 /* navbar */
 #mobile-header {
-  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #ffffff 25%) 0px 0/ 78px 78px;
+  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #fff 25%) 0 0/ 78px 78px;
 }
 
 /* Tickets */
@@ -18,7 +18,7 @@
 
 .fancy-border {
   border: 7px solid;
-  border-image: repeating-linear-gradient(45deg,#272a31,#272a31 10px,#ec5242 10px,#ec5242 20px, #d3d3d3 20px, #d3d3d3 30px) 7;
+  border-image: repeating-linear-gradient(45deg, #272a31, #272a31 10px, #ec5242 10px, #ec5242 20px, #d3d3d3 20px, #d3d3d3 30px) 7;
 }
 
 /* Separator */
