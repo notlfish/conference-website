@@ -1,19 +1,6 @@
 /* navbar */
-header {
-  width: 100%
-  background-color: #ffffff;
-  opacity: 0.4;
+#mobile-header {
   background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #ffffff 25%) 0px 0/ 78px 78px;
-}
-
-.head-nav {
-  padding-top: 20px;
-  padding-bottom: 5px;
-  width: 85%;
-}
-
-.navbar-icons {
-  font-size: 46px;
 }
 
 /* Tickets */
