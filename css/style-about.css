@@ -1,5 +1,4 @@
 /* navbar */
-/* navbar */
 #mobile-header {
   background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0px 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #ffffff 25%) 0px 0/ 78px 78px;
 }
@@ -66,31 +65,4 @@
     right: 0;
     top: 0;
     z-index: 4;
-}
-
-.google-logo {
-  height: 40px;
-  padding: 0 20px;
-}
-
-.mozilla-logo {
-  height: 40px;
-  padding-bottom: 8px;
-}
-
-.inria-logo {
-  height: 40px;
-}
-
-.microsoft-logo {
-  height: 45px;
-}
-
-.jane-street-logo {
-  height: 55px;
-}
-
-/* Footer Legal */
-.inria-legal {
-  height: 40px;
 }

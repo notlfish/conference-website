@@ -131,3 +131,31 @@
 .logo-at-header {
   font-size: 5px;
 }
+
+/* Footer */
+.google-logo {
+  height: 40px;
+  padding: 0 20px;
+}
+
+.mozilla-logo {
+  height: 40px;
+  padding-bottom: 8px;
+}
+
+.inria-logo {
+  height: 40px;
+}
+
+.microsoft-logo {
+  height: 45px;
+}
+
+.jane-street-logo {
+  height: 55px;
+}
+
+/* Footer Legal */
+.inria-legal {
+  height: 40px;
+}
