@@ -100,3 +100,19 @@
 .prev-conf-year {
   font-size: 40px;
 }
+
+/* Footer */
+@media only screen and (min-width: 768px) {
+  #footer-partners {
+    display: none;
+  }
+
+  #footer-legal {
+    padding: 50px 0;
+    background-color: #272a31;
+  }
+
+  .copyright-notice {
+    color: white;
+  }
+}

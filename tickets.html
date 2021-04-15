@@ -34,14 +34,15 @@
         </div>
         <div class="navbar-links bg-white">
           <div class="conference-logo">
-            <div class="conference-logo-header d-flex justify-content-center">
-              <img class="ocaml-logo-header d-block pe-2" alt="OCaml Logo" src="assets/ocaml-logo.jpg">
-              <div class="logo-text-header text-d-black d-title-font text-center fw-bold">
-                <p class="logo-line-1-header my-0">OCaml Devs'</p>
-                <p class="logo-line-2-header my-0">Conference <span class="logo-year-header">2022</span></p>
-                <p class="border border-start-0 border-end-0 border-black logo-at-header my-0">12—15 Oct | Prague, Czech Republic</p>
+            <a href="./index.html" class="normal-link"><div class="conference-logo-tiny d-flex">
+                <img class="ocaml-logo-tiny d-block pe-2" alt="OCaml Logo" src="assets/ocaml-logo.jpg">
+                <div class="logo-text-tiny text-d-black d-title-font text-center fw-bold">
+                  <p class="logo-line-1-tiny my-0">OCaml Devs'</p>
+                  <p class="logo-line-2-tiny my-0">Conference <span class="logo-year-tiny">2022</span></p>
+                  <p class="border border-start-0 border-end-0 border-black logo-at-tiny my-0">12—15 Oct | Prague, Czech Republic</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="navigation-links d-text-font text-d-black fs-6">
             <p class="nav-link my-0"><a href="./index.html" class="normal-link">Home</a></p>
@@ -55,7 +56,7 @@
     <main>
       <section id="tickets" class="bg-light">
         <div class="tickets-title text-center">
-          <h2 class="d-title-font">Select Tickets</h2>
+          <h1 class="d-title-font">Select Tickets</h1>
           <div class="separator-line mx-auto border-orange"></div>
         </div>
         <div class="border rounded-pill d-text-font text-center step-1 mx-auto my-5">
@@ -185,6 +186,33 @@
         <button type="button" class="text-white bg-d-orange fs-4 border-0 w-75 mx-auto p-4 d-block">Select Plan and Purchase</button>
       </section>
     </main>
+        <footer>
+      <section id="footer-partners" class="p-5 bg-d-black">
+        <h2 class="d-title-font text-center text-white">Partners</h2>
+        <div class="separator-line mx-auto border-orange"></div>
+        <div class="partner-logos d-flex justify-content-center flex-wrap align-items-center">
+          <img alt="Google" src="assets/google-logo.png" class="px-4 d-block google-logo">
+          <img alt="Inria" src="assets/inria-logo.png" class="px-4 d-block inria-logo">
+          <img alt="Mozilla" src="assets/mozilla-logo.png" class="px-4 d-block mozilla-logo">
+          <img alt="Microsoft" src="assets/microsoft-logo.png" class="px-4 d-block microsoft-logo">
+          <img alt="Microsoft" src="assets/jane-street-logo.png" class="px-4 d-block jane-street-logo">
+        </div>
+      </section>
+      <section id="footer-legal">
+        <div class="footer-legal-flex d-flex justify-content-around align-items-center py-4 text-d-black">
+          <div class="conference-logo-tiny d-flex">
+            <img class="ocaml-logo-tiny d-block pe-2" alt="OCaml Logo" src="assets/ocaml-logo.jpg">
+            <div class="logo-text-tiny text-d-grey d-title-font text-center fw-bold">
+              <p class="logo-line-1-tiny my-0">OCaml Devs'</p>
+              <p class="logo-line-2-tiny my-0">Conference <span class="logo-year-tiny">2022</span></p>
+              <p class="border border-start-0 border-end-0 border-black logo-at-tiny my-0">12—15 Oct | Prague, Czech Republic</p>
+            </div>
+          </div>
+          <img alt="Inria" src="assets/inria-logo.png" class="px-4 d-block inria-legal">
+          <p class="copyright-notice d-text-font fs-5 my-0">2022 INRIA. <a href="https://ocaml.org/docs/license.html" class="normal-link">LGPL 2.1.</a></p>
+        </div>
+      </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>

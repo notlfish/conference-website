@@ -116,26 +116,26 @@
   padding-right: 40px;
 }
 
-.ocaml-logo-header {
+.ocaml-logo-tiny {
   height: 50px;
   width: 50px;
 }
 
-.logo-line-1-header {
+.logo-line-1-tiny {
   font-size: 16px;
   line-height: 17px;
 }
 
-.logo-line-2-header {
+.logo-line-2-tiny {
   font-size: 14px;
   line-height: 15px;
 }
 
-.logo-year-header {
+.logo-year-tiny {
   font-size: 10px;
 }
 
-.logo-at-header {
+.logo-at-tiny {
   font-size: 5px;
 }
 
