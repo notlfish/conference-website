@@ -73,6 +73,11 @@
   text-decoration: none;
 }
 
+.hover-border:hover {
+  border-width: 2px;
+  border-style: solid;
+}
+
 /* Header */
 #mobile-header {
   width: 100%;

@@ -71,7 +71,10 @@
   .program-entry {
     margin-right: 5px;
     max-width: 15vw;
-    min-width: 180px;
+  }
+
+  .program-entry-description {
+    font-size: 14px;
   }
 }
 
