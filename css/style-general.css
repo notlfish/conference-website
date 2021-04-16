@@ -1,0 +1,168 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+/* General configuration */
+
+/* Design text and background colors */
+.bg-d-black {
+  background-color: #272a31;
+}
+
+.text-d-black {
+  color: #272a31;
+}
+
+.bg-d-orange {
+  background-color: #ec5242;
+}
+
+.text-d-orange {
+  color: #ec5242;
+}
+
+.bg-d-grey {
+  background-color: #d3d3d3;
+}
+
+.bg-d-transparent {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-d-grey {
+  color: #d3d3d3;
+}
+
+/* Design font families */
+.d-text-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.d-title-font {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+/* General classes */
+.border-orange {
+  border-color: #ec5242;
+}
+
+.border-grey {
+  border-color: #d3d3d3;
+}
+
+.border-black {
+  border-color: #272a31;
+}
+
+.separator-line {
+  height: 2px;
+  width: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.black-underline-link {
+  color: inherit;
+}
+
+.normal-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hover-border:hover {
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Header */
+#mobile-header {
+  width: 100%;
+}
+
+.head-nav {
+  padding-bottom: 5px;
+  width: 85%;
+}
+
+.dropdown {
+  width: 40px;
+  padding-left: 50px;
+}
+
+.navbar-icons {
+  font-size: 46px;
+}
+
+.navbar-social {
+  padding-right: 10vw;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10vw;
+}
+
+.navigation-links {
+  display: flex;
+}
+
+.nav-link {
+  padding-right: 40px;
+}
+
+.ocaml-logo-tiny {
+  height: 50px;
+  width: 50px;
+}
+
+.logo-line-1-tiny {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.logo-line-2-tiny {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.logo-year-tiny {
+  font-size: 10px;
+}
+
+.logo-at-tiny {
+  font-size: 5px;
+}
+
+/* Footer */
+.google-logo {
+  height: 40px;
+  padding: 0 20px;
+}
+
+.mozilla-logo {
+  height: 40px;
+  padding-bottom: 8px;
+}
+
+.inria-logo {
+  height: 40px;
+}
+
+.microsoft-logo {
+  height: 45px;
+}
+
+.jane-street-logo {
+  height: 55px;
+}
+
+/* Footer Legal */
+.inria-legal {
+  height: 40px;
+}

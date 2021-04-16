@@ -1,0 +1,72 @@
+/* navbar */
+#mobile-header {
+  background: linear-gradient(135deg, #d3d3d355 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(225deg, #d3d3d3 25%, transparent 25%) -39px 0/ 78px 78px, linear-gradient(315deg, #d3d3d553 25%, transparent 25%) 0 0/ 78px 78px, linear-gradient(45deg, #d3d3d3 25%, #fff 25%) 0 0/ 78px 78px;
+}
+
+/* Tickets */
+#tickets {
+  padding: 40px 0;
+}
+
+.step-1 {
+  width: 450px;
+}
+
+.tickets-price {
+  width: 90%;
+  max-width: 950px;
+}
+
+.fancy-border {
+  border: 7px solid;
+  border-image: repeating-linear-gradient(45deg, #272a31, #272a31 10px, #ec5242 10px, #ec5242 20px, #d3d3d3 20px, #d3d3d3 30px) 7;
+}
+
+/* Separator */
+.separator-top,
+.separator-bottom {
+  height: 30px;
+  width: 100%;
+}
+
+.separator-diamond {
+  background: #ec5242;
+  height: 40px;
+  text-align: center;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 40px;
+}
+
+.separator-icon {
+  font-size: 20px;
+  display: table-cell;
+  height: 40px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  width: 40px;
+}
+
+/* Menu Selection */
+.step-2 {
+  width: 400px;
+}
+
+.menu-price {
+  width: 85%;
+}
+
+/* Footer */
+@media only screen and (min-width: 768px) {
+  #footer-partners {
+    display: none;
+  }
+
+  #footer-legal {
+    padding: 50px 0;
+    background-color: #272a31;
+  }
+
+  .copyright-notice {
+    color: white;
+  }
+}
